@@ -130,8 +130,8 @@ public class Main {
     }
 
     public static void listarProdutos(){
-        int cont = 1;
         for(ProdutoWeg prod : weg.getProdutosDisponiveis()){
+            int cont = 1;
             System.out.println(cont +"° - "+ "Nome: "+ prod.getNome());
             System.out.println("Preco: "+prod.getPreco());
             System.out.println("");
@@ -139,8 +139,8 @@ public class Main {
         }
     }
     public static void listarServicos(){
-        int cont = 1;
         for (ServicoManutencao serv : weg.getServicos()){
+            int cont = 1;
             System.out.println(cont+"° - "+" Descicao: "+ serv.getDescricao());
             System.out.println("Preco: "+ serv.getCusto());
             System.out.println("");

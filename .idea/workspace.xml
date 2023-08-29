@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1635cfda-f2df-495c-a5c3-dc3f7056e1f9" name="Default Changelist" comment="" />
+    <list default="true" id="1635cfda-f2df-495c-a5c3-dc3f7056e1f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/Gerador.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/Gerador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/InversorFrequencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/InversorFrequencia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/MotorEletrico.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/MotorEletrico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/ProdutoWeg.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/ProdutoWeg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/ServicoManutencao.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/ServicoManutencao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/Weg.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/Weg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/src/InversorFrequencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/InversorFrequencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/src/MotorEletrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/MotorEletrico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/src/ProdutoWeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/ProdutoWeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/src/Weg.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/Weg.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +25,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WEG/src/ServicoManutencao.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WEG/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WEG/src/Gerador.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WEG/src/MotorEletrico.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WEG/src/Weg.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WEG/src/InversorFrequencia.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WEG/src/ProdutoWeg.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2UMAynmanjCgBx4YOQjjBcFQOfx" />
   <component name="ProjectViewState">
@@ -18,7 +43,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Sistema-POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,5 +71,20 @@
       <updated>1692739335417</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
