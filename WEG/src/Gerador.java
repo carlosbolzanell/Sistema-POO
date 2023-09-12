@@ -64,4 +64,13 @@ public class Gerador extends ProdutoWeg {
     public void setAutonomia(float autonomia) {
         this.autonomia = autonomia;
     }
+
+    /**
+     * Realiza a manutenção do Gerador
+     *
+     * @param servico Serviço de Manutenção utilizada
+     */
+    public String realizarManutencao(ServicoManutencao servico) {
+        return "A manutenção foi realizada no Gerador "+getNome()+" com sucesso!";
+    }
 }

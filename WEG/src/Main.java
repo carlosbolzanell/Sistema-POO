@@ -9,14 +9,14 @@ public class Main {
 
     public static void menu(){
         do {
-            System.out.print("##------------WEG------------##\n\n");
+            System.out.print(" ##----------WEG----------##\n");
             System.out.print("|---------------------------|\n");
             System.out.print("| -> 1 - Cadastrar Produto  |\n");
             System.out.print("| -> 2 - Cadastrar Servicos |\n");
             System.out.print("| -> 3 - Lista de Produtos  |\n");
             System.out.print("| -> 4 - Lista de Serviços  |\n");
             System.out.print("| -> 5 - Sair               |\n");
-            System.out.print("|-----------------------------|\n");
+            System.out.print("|---------------------------|\n");
             System.out.print("Digite uma opção: ");
             int opcao = sc.nextInt();
 
@@ -116,8 +116,8 @@ public class Main {
         System.out.println("Autonomia");
         float aut = sc.nextFloat();
 
-        Gerador ger = new Gerador(nome, cod, tipo, pot, tens, cap,prec, gas, aut);
-        weg.addProdutosDisponiveis(ger);
+        Gerador gerador = new Gerador(nome, cod, tipo, pot, tens, cap, prec, gas, aut);
+        weg.addProdutosDisponiveis(gerador);
     }
     public static void cadastroServicos(){
         System.out.println("Descricao");
@@ -125,22 +125,16 @@ public class Main {
         System.out.println("Preco");
         float prec = sc.nextFloat();
 
-        ServicoManutencao serv = new ServicoManutencao(desc, prec);
-        weg.addServicos(serv);
+        ServicoManutencao servicos = new ServicoManutencao(desc, prec);
+        weg.addServicos(servicos);
     }
 
     public static void listarProdutos(){
-        for(ProdutoWeg prod : weg.getProdutosDisponiveis()){
-            int cont = 1;
-            System.out.println(cont +"° - "+ "Nome: "+ prod.getNome());
-            System.out.println("Preco: "+prod.getPreco());
-            System.out.println("");
-            cont++;
-        }
+        System.out.println(weg.listarProdutos());
     }
     public static void listarServicos(){
+        int cont = 1;
         for (ServicoManutencao serv : weg.getServicos()){
-            int cont = 1;
             System.out.println(cont+"° - "+" Descicao: "+ serv.getDescricao());
             System.out.println("Preco: "+ serv.getCusto());
             System.out.println("");

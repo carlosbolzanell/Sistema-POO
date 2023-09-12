@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1635cfda-f2df-495c-a5c3-dc3f7056e1f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/Gerador.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/Gerador.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/InversorFrequencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/InversorFrequencia.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/MotorEletrico.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/MotorEletrico.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/ProdutoWeg.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/ProdutoWeg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/ServicoManutencao.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/ServicoManutencao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/out/production/WEG/Weg.class" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/out/production/WEG/Weg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEG/src/Gerador.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/Gerador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/src/InversorFrequencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/InversorFrequencia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/src/MotorEletrico.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/MotorEletrico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEG/src/ProdutoWeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/ProdutoWeg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WEG/src/Weg.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEG/src/Weg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema-POO/Gerador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema-POO/Gerador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema-POO/InversorFrequencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema-POO/InversorFrequencia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema-POO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema-POO/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema-POO/MotorEletrico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema-POO/MotorEletrico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema-POO/ProdutoWeg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema-POO/ProdutoWeg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sistema-POO/Weg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sistema-POO/Weg.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RunManager">
@@ -82,6 +85,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

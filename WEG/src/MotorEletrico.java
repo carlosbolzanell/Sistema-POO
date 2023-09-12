@@ -63,4 +63,13 @@ public class MotorEletrico extends ProdutoWeg {
     public void setEficiencia(String eficiencia) {
         this.eficiencia = eficiencia;
     }
+
+    /**
+     * Realiza a manutenção do Motor elétrico
+     *
+     * @param servico Serviço de Manutenção utilizada
+     */
+    public String realizarManutencao(ServicoManutencao servico) {
+        return "A manutenção foi realizada no Motor Elétrcio "+getNome()+" com sucesso!";
+    }
 }

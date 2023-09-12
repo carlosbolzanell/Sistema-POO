@@ -63,4 +63,13 @@ public class InversorFrequencia extends ProdutoWeg {
     public void setNumFases(int numFases) {
         this.numFases = numFases;
     }
+
+    /**
+     * Realiza a manutenção do Inversor de Frequência
+     *
+     * @param servico Serviço de Manutenção utilizada
+     */
+    public String realizarManutencao(ServicoManutencao servico) {
+        return "A manutenção foi realizada no Inversor de Frequência "+getNome()+" com sucesso!";
+    }
 }

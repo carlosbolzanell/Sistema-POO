@@ -6,8 +6,9 @@ import java.util.ArrayList;
  * @version 1.0
  */
 public class Weg {
+    private static int cont = 0;
     private ArrayList<ProdutoWeg> produtosDisponiveis = new ArrayList<ProdutoWeg>(); // Lista de produtos disponíveis da WEG.
-    private ArrayList<ServicoManutencao> servicos = new ArrayList<ServicoManutencao>(); // Lista de serviços de manutenção da WEG.
+    public ArrayList<ServicoManutencao> servicos = new ArrayList<ServicoManutencao>(); // Lista de serviços de manutenção da WEG.
 
     /**
      * Obtém a lista de produtos disponíveis da WEG.
@@ -50,9 +51,7 @@ public class Weg {
      *
      * @param produto O serviço de manutenção a ser adicionado.
      */
-    public void addServicos(ServicoManutencao produto) {
-        this.servicos.add(produto);
-    }
+    public void addServicos(ServicoManutencao produto) {this.servicos.add(produto); }
 
     /**
      * Remove um serviço de manutenção da lista de serviços.
@@ -62,5 +61,18 @@ public class Weg {
     public void removeServicos(ServicoManutencao produto) {
         this.servicos.remove(produto);
     }
-}
+
+    /**
+     * Lista os produtos da lista de produtos
+     */
+
+    public String listarProdutos(){
+        String produtos = "";
+        int cont = 1;
+        for (ProdutoWeg prod: produtosDisponiveis) {
+            produtos += cont + "° Produto: "+prod.getNome() + "\nPreço: R$"+ prod.getPreco()+ "\n";
+            cont++;
+        }
+        return produtos;
+    }
 }
